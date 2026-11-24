@@ -2,6 +2,8 @@
 
 Connected fire detection and suppression system: ESP8266 (MQ-2 smoke sensor, flame sensor, relay pump) + Java HTTP server with SQLite + real-time web dashboard with admin controls.
 
+![Dashboard](Docs/dashboard.png)
+
 An ESP8266 board monitors smoke and flames, triggers the alarm and the water pump **locally**, and sends its measurements to a Java server. The server stores them in SQLite and displays them on a web dashboard (live chart, alert history).
 
 ## Features
